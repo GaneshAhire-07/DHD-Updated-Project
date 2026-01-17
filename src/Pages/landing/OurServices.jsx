@@ -8,7 +8,7 @@ import LandscapeDevelopmentImage from "../../assets/Landscape&Development.jpg";
 import VerticalGarden from "../../assets/terracegarden.jpg";
 import CorporateGreenSolution from "../../assets/CorporateGreenSolution.jpg";
 import garderDesign from "../../assets/garderDesign.jpg";
-import GrassPlantation from "../../assets/GrassPlantation.jpg";
+import GrassPlantation from "../../assets/grassplantation.jpg";
 import TeraceGarden from "../../assets/TeraceGarden.jpg";
 import KitchenGarden from "../../assets/b1.jpeg";
 
@@ -203,7 +203,7 @@ function OurServices() {
           }
         });
       },
-      { threshold: 0.15, rootMargin: "-50px" }
+      { threshold: 0.15, rootMargin: "-50px" },
     );
 
     sectionRefs.current.forEach((section) => {
