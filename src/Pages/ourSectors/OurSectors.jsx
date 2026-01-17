@@ -20,14 +20,14 @@ import {
 import degree from "../../assets/degree.avif";
 import energy from "../../assets/energy.avif";
 import environmental from "../../assets/environmental.avif";
-import health from "../../assets/health.avif";
+import health from "../../assets/Health.avif";
 import highways from "../../assets/highways.avif";
 import industrial from "../../assets/industrial.jpg";
-import leisure from "../../assets/leisure.jpg"; 
-import localGov from "../../assets/government.jpg"; 
-import offices from "../../assets/offices.jpg"; 
-import rail from "../../assets/rail.jpg"; 
-import residential from "../../assets/recidential.jpg"; 
+import leisure from "../../assets/leisure.jpg";
+import localGov from "../../assets/government.jpg";
+import offices from "../../assets/offices.jpg";
+import rail from "../../assets/rail.jpg";
+import residential from "../../assets/recidential.jpg";
 
 const allSectorsData = [
   {
