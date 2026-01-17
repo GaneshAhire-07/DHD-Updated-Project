@@ -1,6 +1,5 @@
 // src/components/routes/OtherRoutes.jsx
 import { Route } from "react-router-dom";
-import PageLoaderWrapper from "../../components/loader/PageLoaderWrapper";
 import CustomerServiceGuide from "../../Pages/customerGuide/CustomerServiceGuide";
 import NRIPropertyInvestmentGuide from "../../Pages/NRIPropertyInvestmentGuide/NRIPropertyInvestmentGuide";
 import InvestorRelations from "../../Pages/InvestorRelations/InvestorRelations";
@@ -8,7 +7,7 @@ import PrivacySecurity from "../../Pages/PrivacySecurity/PrivacySecurity";
 import ResponsibleUsePolicy from "../../Pages/ResponsibleUsePolicy/ResponsibleUsePolicy";
 import OurSectors from "../../Pages/ourSectors/OurSectors";
 import NotFoundPage from "../../components/placeholder/NotFoundPage";
-
+import PageLoaderWrapper from "../Loader/PageLoaderWrapper";
 export function OtherRoutes() {
   return (
     <>

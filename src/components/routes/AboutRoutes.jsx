@@ -1,6 +1,5 @@
 // src/components/routes/AboutRoutes.jsx
 import { Route } from "react-router-dom";
-import PageLoaderWrapper from "../../components/loader/PageLoaderWrapper";
 import HistoryPage from "../../Pages/about/HistoryPage";
 import VisionMission from "../../Pages/landing/VisionMission";
 import ProfessionalTeam from "../../Pages/landing/ProfessionalTeam";
@@ -21,7 +20,7 @@ import NRIPropertyInvestmentGuide from "../../Pages/NRIPropertyInvestmentGuide/N
 import CustomerServiceGuide from "../../Pages/customerGuide/CustomerServiceGuide";
 import PrivacySecurity from "../../Pages/PrivacySecurity/PrivacySecurity";
 import AboutUs from "../../Pages/landing/AboutUs";
-
+import PageLoaderWrapper from "../Loader/PageLoaderWrapper";
 export function AboutRoutes() {
   return (
     <>

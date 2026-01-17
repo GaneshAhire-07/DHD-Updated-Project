@@ -1,6 +1,5 @@
 // src/components/routes/ExpertiseRoutes.jsx
 import { Route } from "react-router-dom";
-import PageLoaderWrapper from "../../components/loader/PageLoaderWrapper";
 import ExpertisePage from "../../Pages/expertise/ExpertisePage";
 import Rail from "../../Pages/OurExpertisePages/Rail";
 import InfrastructurePage from "../../Pages/expertise/InfrastructurePage";
@@ -10,7 +9,7 @@ import FacilitiesManagementPage from "../../Pages/OurExpertisePages/FacilitiesMa
 import EnvironmentalTargetsPage from "../../Pages/OurExpertisePages/EnvironmentalTargets";
 import Sustainability from "../../Pages/OurExpertisePages/Sustainability";
 import UtilitiesPage from "../../Pages/OurExpertisePages/Utilities";
-
+import PageLoaderWrapper from "../Loader/PageLoaderWrapper";
 export function ExpertiseRoutes() {
   const extraRoutes = [
     "construction",
